@@ -8,12 +8,16 @@ __pycache__/
 data/raw/
 data/processed/
 *.parquet
+*.csv
 
 # OS / IDE
 .vscode/
 .DS_Store
 Thumbs.db
 
-# Models / outputs (optional: keep out unless you want them tracked)
+# Trained models / artifacts (reproducible)
 models/
-reports/
+
+# Reports (KEEP for portfolio)
+!reports/
+!reports/**
