@@ -1,0 +1,9 @@
+data/
+*.csv
+*.xlsx
+*.parquet
+__pycache__/
+.venv/
+.ipnb_checkpoints/
+model/
+mlruns/
