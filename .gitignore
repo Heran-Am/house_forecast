@@ -1,9 +1,19 @@
-data/
-*.csv
-*.xlsx
-*.parquet
-__pycache__/
+# Python
 .venv/
-.ipnb_checkpoints/
-model/
-mlruns/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data (don’t commit big files)
+data/raw/
+data/processed/
+*.parquet
+
+# OS / IDE
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Models / outputs (optional: keep out unless you want them tracked)
+models/
+reports/
