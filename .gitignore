@@ -18,6 +18,11 @@ Thumbs.db
 # Trained models / artifacts (reproducible)
 models/
 
+# BUT keep source code under src/models
+!src/models/
+!src/models/**
+
 # Reports (KEEP for portfolio)
 !reports/
 !reports/**
+
